@@ -16,6 +16,7 @@ const averagePrice = parseInt(((apple + banana + telephone) / 3).toFixed(2));
 const discount = Math.random();
 const discountPrise = Number ((allProductPrice - (allProductPrice * discount)).toFixed(2));
 const allProductDiscount = ((allProductPrice/2) - ((allProductPrice) * discount));
+
 console.log(ProductMaxPrice);
 console.log(productMinPrice);
 console.log(allProductPrice);
@@ -27,6 +28,7 @@ console.log(averagePrice);
 console.log(discount);
 console.log(discountPrise);
 console.log(allProductDiscount);
+
 document.writeln(`Максимальна ціна: ${ProductMaxPrice}; <br>`);
 document.writeln(`Мінімальна ціна: ${productMinPrice}; <br>`);
 document.writeln(`Загальна вартість товару: ${allProductPrice}; <br>`);
